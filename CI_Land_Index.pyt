@@ -14,7 +14,7 @@ class Toolbox(object):
         self.description = """The Land Index toolbox processes land-based activity data, depending on 
         whether the activities occur within the boundaries of major watersheds, or whether the activities
         occur in coastal areas within impact distance of the ocean. The outputs of both tools will be pulled
-        into the Marine Footprint analysis at Step 3.
+        into the Coastal Kernel Density analysis at Step 3.
         
         Step 1a is used for activity data that falls within major watersheds of stream order 7 or higher. 
         These represent the most significant river systems and data from the headwaters of each drainage 

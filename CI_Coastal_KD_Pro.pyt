@@ -44,7 +44,7 @@ class Step1(object):
         
         The following fields will be added to the activity feature class: 
         •	Stressor Weight (prefix “StrWt_”)
-        •	Stressor-specific Relative Intensity (prefix “ActRIxStrWt_”)
+        •	Stressor-specific Relative Intensity (“RI_stressor”)
         •	Stressor-specific Impact Distance (prefix “ImpactDist_”)
         
         If the input activity feature class is a polygon, the tool will convert the feature class to
