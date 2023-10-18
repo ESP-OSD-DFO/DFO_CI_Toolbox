@@ -1,0 +1,9 @@
+#ignore all geodatabases
+*.gdb/**
+*/*.gdb/**
+*/*/*.gdb/**
+*/*/*/*.gdb/**
+
+#ignore all files under input_master_tables
+input_master_tables_csv/*.csv
+input_master_tables_csv/*
