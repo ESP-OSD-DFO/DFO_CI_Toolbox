@@ -10,6 +10,8 @@ The python toolboxes have been coded using relative paths - geodatabases must be
 Sample data can be downloaded from: ftp://ftp.dfo-mpo.gc.ca/AgbayaniS/CIMapping/DFO_CI_Toolbox. 
 Please use an ftp client (e.g., FileZilla) to access the data, or open the link in Windows Explorer (not a web browser).  
 
+*Suggested citation*:
+Agbayani, S., Schweitzer, C., Murray, C.C., 2023. Cumulative Impact Mapping Toolbox and User Guide. Ecosystem Stressors Program, Marine Spatial Planning, Fisheries and Oceans Canada. Retrieved from: https://github.com/ESP-OSD-DFO/DFO_CI_Toolbox
 
 Please direct any inquiries to Cathryn Murray (cathryn.murray@dfo-mpo.gc.ca) or Selina Agbayani (selina.agbayani@dfo-mpo.gc.ca). 
 
