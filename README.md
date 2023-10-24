@@ -8,8 +8,11 @@ ArcGIS License Requirements to run the toolboxes: ArcGIS Pro Advanced, with Spat
 The python toolboxes have been coded using relative paths - geodatabases must be kept in the same folder as the .pyt files: "DFO_CI_Toolbox". *Please do not rename this folder*   
 
 Sample data can be downloaded from: ftp://ftp.dfo-mpo.gc.ca/AgbayaniS/CIMapping/DFO_CI_Toolbox. 
-Please use an ftp client (e.g., FileZilla) to acces the data, or open the link in Windows Explorer (not a web browser).  
+Please use an ftp client (e.g., FileZilla) to access the data, or open the link in Windows Explorer (not a web browser).  
 
+*Suggested citation*:
+
+Agbayani, S., Schweitzer, C., Murray, C.C., 2023. Cumulative Impact Mapping Toolbox and User Guide. Ecosystem Stressors Program, Ocean Sciences Division, Fisheries and Oceans Canada. Produced for Marine Spatial Planning. Retrieved from: https://github.com/ESP-OSD-DFO/DFO_CI_Toolbox
 
 Please direct any inquiries to Cathryn Murray (cathryn.murray@dfo-mpo.gc.ca) or Selina Agbayani (selina.agbayani@dfo-mpo.gc.ca). 
 
