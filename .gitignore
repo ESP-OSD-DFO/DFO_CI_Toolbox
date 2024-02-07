@@ -13,3 +13,5 @@ CIM_February_2024/*
 CIM_February_2024/*/*
 CIM_February_2024/*/*/*
 
+#ignore all zip files
+*.zip

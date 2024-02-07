@@ -1393,6 +1393,8 @@ class Step4(object):
                     for g in gridcodes:
                         insert.insertRow([g])
                     del insert
+                else: 
+                    continue #go to next habitat
 
                 hf = os.path.join(os.path.dirname(__file__),r"CI_InputData.gdb\habitats", h)
 
@@ -1521,7 +1523,8 @@ class Step4(object):
                                 indicator = True
                                 total += float(row.getValue("Cumul_Impact_"+h))
                         except:
-                            arcpy.AddWarning("No intersection of " + a + " and habitat " + h + " found. Proceeding to next habitat")
+                            pass
+                            #arcpy.AddWarning("No intersection of " + a + " and habitat " + h + " found. Proceeding to next habitat")
                         
                         if indicator == True:
                             row.setValue("Cumul_Impact_"+a,total)
@@ -2200,7 +2203,7 @@ class Step6(object):
         for table in tableList:
             arcpy.AddMessage("Processing "+ str(table)+"...")
             outputWorkspace = os.path.dirname(table)
-            outputFCName = os.path.basename(table)+"_FC"
+            outputFCName = os.path.basename(table)+"__FC"
             outputFCPath = os.path.join(outputWorkspace,outputFCName)
             arcpy.env.workspace = outputWorkspace
 
