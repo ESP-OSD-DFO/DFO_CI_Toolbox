@@ -1892,7 +1892,7 @@ class Step5(object):
                                 
                                 #match name of activity sum impact table to the exact activity sum impact table being considered
                                 if f == scn+"_"+a+"_sum_impact_"+h+"_"+code:
-                                    arcpy.AddMessage("Processing " + os.path.basename(f))
+                                    #arcpy.AddMessage("Processing " + os.path.basename(f)) #debug
                                     #build dictionary of sum_impacts accross habitat/code features
                                     featDict = {}
                                     featSearch = arcpy.da.SearchCursor(f, ["UNIT_ID", "Sum_Impact_"+a])
@@ -1902,11 +1902,11 @@ class Step5(object):
                                         featDict.update({feat[0]:feat[1]})
 
                                     #inform user that the activity being considered is relevant     
-                                    arcpy.AddMessage("    Found "+a)
+                                    #arcpy.AddMessage("    Found "+a)
                                     
                                     #add valid dataset into a subset, so that only activity codes with valid intersections are considered
                                     actCodeSubset.append(str(a))
-                                    arcpy.AddMessage(actCodeSubset)
+                                    #arcpy.AddMessage(actCodeSubset) #debug
                                     
                                     #add field for sum_impact_activity in the cumulative habitat_code table. 
                                     arcpy.management.AddField(table,"Sum_Impact_"+a,"DOUBLE")
